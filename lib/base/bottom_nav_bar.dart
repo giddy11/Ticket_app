@@ -43,7 +43,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
             ),
             BottomNavigationBarItem(
               icon: Icon(FluentSystemIcons.ic_fluent_person_regular),
-              label: "Home",
+              label: "Profile",
               activeIcon: Icon(FluentSystemIcons.ic_fluent_person_filled)
             ),
           ],
