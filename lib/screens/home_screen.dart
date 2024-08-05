@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_application_1/base/res/media.dart';
 import 'package:flutter_application_1/base/res/styles/app_styles.dart';
+import 'package:flutter_application_1/base/widgets/app_double_text.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -47,7 +48,6 @@ class HomeScreen extends StatelessWidget {
                           image: AssetImage(AppMedia.logo)
                         )
                       ),
-                      // child: const Text("Logo"),
                     )
                   ],
                 ),
@@ -65,10 +65,12 @@ class HomeScreen extends StatelessWidget {
                       Text("Search")
                     ],
                   ),
-                )
+                ),
+                const SizedBox(height: 40),
+                const AppDoubleText(bigText: "Upcoming meetings", smallText: "View all"),
               ],
             ),
-          )
+          ),
         ],
       ),
     );
